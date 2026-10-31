@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotation Generator</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <div>
+                <h1>Quotation Generator</h1>
+                <p>Generate Software and Civil quotations from customer emails.</p>
+            </div>
+            <button id="connectBtn" class="primary">Connect Gmail</button>
+        </header>
+
+        <section class="toolbar">
+            <h2>Customer Emails</h2>
+            <button id="refreshBtn" class="secondary">Refresh Emails</button>
+        </section>
+
+        <div id="message"></div>
+        <section id="emailList">
+            <p class="empty">Loading emails...</p>
+        </section>
+    </main>
+
+    <script src="/static/js/dashboard.js"></script>
+</body>
+
+</html>

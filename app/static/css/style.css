@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f4f6fa;
+    color: #202938;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 45px auto;
+    padding: 25px;
+}
+
+header,
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+h1 {
+    margin-bottom: 6px;
+}
+
+header p,
+.email p {
+    color: #687386;
+}
+
+.toolbar {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+button {
+    border: 0;
+    border-radius: 7px;
+    padding: 11px 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.primary {
+    background: #2457d6;
+    color: white;
+}
+
+.secondary {
+    background: #e5eaf3;
+    color: #263449;
+}
+
+.email {
+    background: white;
+    border: 1px solid #e1e6ee;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 14px;
+}
+
+.email h3 {
+    margin: 0 0 8px;
+}
+
+.email p {
+    margin: 6px 0;
+}
+
+.email-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.generate {
+    background: #2457d6;
+    color: white;
+}
+
+.download {
+    background: #16834a;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 11px 16px;
+    display: inline-block;
+}
+
+.status {
+    color: #16834a;
+    font-size: 14px;
+}
+
+.empty {
+    color: #687386;
+    padding: 20px 0;
+}
+
+#message {
+    margin: 12px 0;
+    color: #b42318;
+}
